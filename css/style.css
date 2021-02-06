@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Potta+One:regular");
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	color: #000;
+	padding: 30px;
+	font-family: "Potta One";
+	font-size: 18px;
+}
+.border {
+	margin: 0px 0px 30px 0px;
+}
+.border p {
+	border: 10px solid red;
+	margin: 0px 15px 10px 0px;
+	max-width: 400px;
+	display: inline-block;
+}
+.border :first-child {
+	text-align: left;
+}
+.border p:first-child:hover {
+	text-align: left;
+	border: 15px solid #16d8a4;
+	background-color: #09c447;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+.border p:nth-child(2) {
+	border: 10px dashed green;
+	text-align: center;
+}
+.border p:nth-child(2):hover {
+	border: 5px solid rgb(212, 25, 156);
+}
+.border p:last-child {
+	border: 10px dotted blue;
+	text-align: right;
+}
+.border p span {
+	font-size: 23px;
+}
+.border-radius {
+	margin: 0px 0px 30px 0px;
+}
+.border-radius p {
+	border: 10px solid red;
+	margin: 0px 15px 15px 0px;
+	max-width: 380px;
+	display: inline-block;
+	border-radius: 5px;
+}
+.border-radius :first-child {
+	text-align: left;
+	border-radius: 0px 20px 0px 20px;
+}
+.border-radius p:nth-child(2) {
+	border: 10px dashed green;
+	text-align: center;
+	border-radius: 30px 0px 30px 0px;
+}
+.border-radius p:last-child {
+	border: 10px dotted blue;
+	text-align: right;
+	border-radius: 50%;
+	height: 400px;
+	text-align: center;
+	overflow: hidden;
+}
+.border-radius p span {
+	font-size: 23px;
+}
+.box-shadow {
+	margin: 0px 0px 40px 0px;
+}
+.box-shadow .block {
+	max-width: 250px;
+	box-shadow: 10px 10px 5px green, 15px 18px 5px blue, inset 1px 0px 10px green;
+	display: inline-block;
+	margin: 0px 40px 0px 0px;
+}
+.box-shadow .block:nth-child(2) {
+	box-shadow: 10px 10px 5px rgb(212, 40, 155), -15px -18px 5px rgb(9, 192, 192);
+}
+.box-shadow .block:last-child {
+	box-shadow: inset 0px 0px 2px 10px rgb(228, 15, 15);
+}
+.box-shadow .block span {
+	color: indigo;
+	font-size: 22px;
+	font-weight: 700;
+}
+.box-shadow .block p {
+	border: 2px solid black;
+	color: gray;
+}
+.outline .block {
+	max-width: 350px;
+	display: inline-block;
+	margin: 0px 20px 20px 0px;
+	border: 5px solid #5126ee;
+	outline: 5px solid transparent;
+}
+.outline .block:hover {
+	outline: 5px solid red;
+	outline-offset: 5px;
+}
+
+.opacity {
+	max-width: 350px;
+	border: 5px solid red;
+	margin: 0 auto;
+}
+.opacity .block {
+	opacity: 0;
+}
+.none {
+	display: block;
+	max-width: 200px;
+	margin: 10px auto;
+	text-align: center;
+}
+.visibility {
+	max-width: 350px;
+	border: 5px solid red;
+	margin: 0 auto;
+}
+.visibility .block {
+	visibility: hidden;
+}
+.none {
+	display: block;
+	max-width: 200px;
+	margin: 10px auto;
+	text-align: center;
+}
